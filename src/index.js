@@ -3,7 +3,7 @@ exports.min = function min (array) {
   { return 0; }
   let minimum = array[0];
   for (let i = 1; i < array.length; i++) {
-      if (array[i] > minimum) {
+      if (array[i] < minimum) {
           minimum = array[i];
       }
   }
