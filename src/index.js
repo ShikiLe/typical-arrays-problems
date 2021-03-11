@@ -9,9 +9,6 @@ exports.min = function min (array) {
   }
   return minimum;
 }
-  
-}
-
 exports.max = function max (array) {
   if (!array || !array.length) 
   { return 0; }
@@ -23,9 +20,6 @@ exports.max = function max (array) {
   }
   return maximum;
 }
-  
-}
-
 exports.avg = function avg (array) {
   if (!array || !array.length)
    { return 0; }
